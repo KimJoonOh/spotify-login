@@ -165,7 +165,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="EmI-Vd-ya9"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -213,7 +213,7 @@
         <!--Main View Controller-->
         <scene sceneID="98C-Xb-PKW">
             <objects>
-                <viewController id="ZbO-AC-e2E" customClass="MainViewController" customModule="spotify_login" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="ZbO-AC-e2E" customClass="MainViewController" customModule="spotify_login" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZKt-7G-rEd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
